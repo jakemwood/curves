@@ -1,0 +1,3 @@
+#! /bin/bash
+
+gfortran -fPIC -std=legacy -shared -o curves_subroutines.so curves_subroutines.f
